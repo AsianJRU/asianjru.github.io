@@ -1,65 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Our Courses on AJRU | Asian Jump Rope Union</title>
+    <title>All Events on AJRU | Asian Jump Rope Union</title>
     <link>https://ajru.tuojie.com/event/</link>
-    <description>Recent content in Our Courses on AJRU | Asian Jump Rope Union</description>
+    <description>Recent content in All Events on AJRU | Asian Jump Rope Union</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright &amp;copy; 2020 Asian Jump Rope Union</copyright>
-    <lastBuildDate>Sat, 09 Mar 2030 15:27:17 +0600</lastBuildDate><atom:link href="https://ajru.tuojie.com/event/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Sep 2019 11:28:32 +0600</lastBuildDate><atom:link href="https://ajru.tuojie.com/event/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Social media and behavior economics conference</title>
+      <title>Global Association of International Sports (GAISF)</title>
       <link>https://ajru.tuojie.com/event/event-1/</link>
-      <pubDate>Sat, 09 Mar 2030 15:27:17 +0600</pubDate>
+      <pubDate>Wed, 25 Sep 2019 11:28:32 +0600</pubDate>
       
       <guid>https://ajru.tuojie.com/event/event-1/</guid>
-      <description>About Event Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <description>The International Jump Rope Union (IJRU) has become the 10th International Federation to gain GAISF Observer status.</description>
     </item>
     
     <item>
-      <title>Social media and behavior economics conference</title>
+      <title>International School Sports Federation</title>
       <link>https://ajru.tuojie.com/event/event-2/</link>
-      <pubDate>Sat, 09 Mar 2030 15:27:17 +0600</pubDate>
+      <pubDate>Wed, 25 Sep 2019 11:28:32 +0600</pubDate>
       
       <guid>https://ajru.tuojie.com/event/event-2/</guid>
-      <description>About Event Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <description>ISF signed the MoU with the International Jump Rope Union During the 2019 IF Forum, ISF signed a Memorandum of Understanding with the International Jump Rope Union (IJRU).</description>
     </item>
     
     <item>
-      <title>Social media and behavior economics conference</title>
-      <link>https://ajru.tuojie.com/event/event-3/</link>
-      <pubDate>Sat, 09 Mar 2030 15:27:17 +0600</pubDate>
-      
-      <guid>https://ajru.tuojie.com/event/event-3/</guid>
-      <description>About Event Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
-    </item>
-    
-    <item>
-      <title>Social media and behavior economics conference</title>
+      <title>International School Sports Federation</title>
       <link>https://ajru.tuojie.com/event/event-4/</link>
-      <pubDate>Sat, 09 Mar 2030 15:27:17 +0600</pubDate>
+      <pubDate>Wed, 25 Sep 2019 11:28:32 +0600</pubDate>
       
       <guid>https://ajru.tuojie.com/event/event-4/</guid>
-      <description>About Event Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <description>Let&amp;rsquo;s Know more how we do it? Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
     </item>
     
     <item>
-      <title>Social media and behavior economics conference</title>
-      <link>https://ajru.tuojie.com/event/event-5/</link>
-      <pubDate>Sat, 09 Mar 2030 15:27:17 +0600</pubDate>
+      <title>TAFISA</title>
+      <link>https://ajru.tuojie.com/event/event-3/</link>
+      <pubDate>Wed, 25 Sep 2019 11:28:32 +0600</pubDate>
       
-      <guid>https://ajru.tuojie.com/event/event-5/</guid>
-      <description>About Event Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
-    </item>
-    
-    <item>
-      <title>Social media and behavior economics conference</title>
-      <link>https://ajru.tuojie.com/event/event-6/</link>
-      <pubDate>Sat, 09 Mar 2030 15:27:17 +0600</pubDate>
-      
-      <guid>https://ajru.tuojie.com/event/event-6/</guid>
-      <description>About Event Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+      <guid>https://ajru.tuojie.com/event/event-3/</guid>
+      <description>TAFISA has over 320 members from more than 170 countries on all continents.</description>
     </item>
     
   </channel>

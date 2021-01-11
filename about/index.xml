@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About Us on AJRU | Asian Jump Rope Union</title>
+    <title>ABOUT AJRU on AJRU | Asian Jump Rope Union</title>
     <link>https://ajru.tuojie.com/about/</link>
-    <description>Recent content in About Us on AJRU | Asian Jump Rope Union</description>
+    <description>Recent content in ABOUT AJRU on AJRU | Asian Jump Rope Union</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright &amp;copy; 2020 Asian Jump Rope Union</copyright><atom:link href="https://ajru.tuojie.com/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Sep 2019 11:28:32 +0600</lastBuildDate><atom:link href="https://ajru.tuojie.com/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

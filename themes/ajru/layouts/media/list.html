@@ -1,0 +1,113 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-sm-12 col-md-12">
+        <div class="media-content">
+          {{ if .Site.Data.homepage.media.enable }}
+          {{ with .Site.Data.homepage.media }}
+          <section class="section media-page">
+            <div style="text-align:center">
+              <span class="text-color">{{ .subtitle | markdownify }}</span>
+              <p> </p>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="about-item-img">
+                    <img src="{{ .image | absURL }}" alt="" class="img-fluid w-100">
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="about-item-content pl-4">
+                    <h2 class="mb-4 content-title">{{ .title | markdownify }}</h2>
+                    <p class="lead">{{ .leadContent | markdownify }}</p>
+                    <p class="mb-4">{{ .content | markdownify }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          {{ end }}
+          <section class="media_body">
+            <div class="container">
+              <div class="row">
+                {{ range first 3 (where .Site.RegularPages "Type" "media" )}}
+                <div class="col-lg-4">
+                  <div class="media-item-img">
+                    <img src="{{ .Params.Image | absURL }}" alt="" class="img-fluid w-100">
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="media-item-content pl-4">
+                    <h3 class="mb-3"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h3>
+                    <p class="card-text mb-4">{{ .Summary }}</p>
+                    <a href="{{ .Permalink }}" class="btn btn-main rounded">LEARN MORE</a>
+                  </div>
+                </div>
+                {{ end}}
+              </div>
+          </section>
+          {{ end }}
+        </div>
+      </div>     
+    </div>
+  </div>
+</section>
+
+<!-- media form start -->
+<!-- <section class="media-wrap section-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <form id="media-form" class="media__form" method="post" action="mail.php">
+          <span class="text-color">Send a message</span>
+          <h3 class="text-md mb-5">media Form</h3>
+          <div class="row">
+            <div class="col-12">
+              <div class="alert alert-success media__msg" style="display: none" role="alert">
+                Your message was sent successfully.
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label>Your Name *</label>
+                <input name="name" type="text" class="form-control">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label>Your Email *</label>
+                <input name="email" type="email" class="form-control">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label>Your Subject *</label>
+                <input name="subjecte" type="text" class="form-control">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label>Your Phone Number *</label>
+                <input name="phone" type="number" class="form-control">
+              </div>
+            </div>
+          </div>
+          <div class="form-group mb-4">
+            <label>Your Message *</label>
+            <textarea name="message" class="form-control" rows="6"></textarea>
+          </div>
+          <button class="btn btn-main rounded" name="submit" type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+{{ end }}

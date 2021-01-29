@@ -1,0 +1,24 @@
+################################# Video ###############################
+video: 
+  enable : true
+  subtitle : "Marvellous, Wonderful and Spirited"
+  title : "The Split Second"
+  videoThumb : "images/gallery/1.jpg"
+  video: "../../videos/China International Jump Rope King 2020.mp4"
+
+
+
+############################# text1 ##################################
+
+text1:
+  enable: true 
+  title : "Partnership Opportunity"
+  subtitle : "Waiting for Partnership Profile"
+  content : "Since 1973 the competitive sport of jump rope/ skipping has made its indelible mark on the world of sports. 
+  In that time the sport has experienced tremendous growth and development and has evolved into the Asian Jump Rope Union (AJRU), the sole Asian governing body of jump rope. 
+  AJRU represents the merged Asian federations of Fédération Asian de Saut à la Corde - Asian Rope Skipping Federation (FISAC-IRSF) and the World Jump Rope Federation (WJRF). 
+  Combined these two entities have produced 21 world championships.
+  
+  
+  Today AJRU has a membership of 60 National Governing Bodies spanning five continents. We invite you to partner with AJRU by completing the partnership profile."
+  

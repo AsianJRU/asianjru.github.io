@@ -1,0 +1,31 @@
+############################ The Split Shot （gallery） ###################################
+gallery:
+  enable : true
+  title : "Past Competition Photos And Videos"
+  galleryItems:
+    - image : "images/members/member_1/1.jpg"
+    - image : "images/members/member_1/2.jpg"
+    - image : "images/members/member_1/3.jpg"
+
+    - image : "images/members/member_1/4.jpg"
+    - image : "images/members/member_1/5.jpg"
+    - image : "images/members/member_1/6.JPG"
+
+    - image : "images/members/member_1/7.jpg"
+    - image : "images/members/member_1/8.JPG"
+    - image : "images/members/member_1/9.JPG"
+ 
+
+################################# Video ###############################
+video: 
+  enable : true
+  title : "Past Competition / Performance Videos"
+  videoItem:
+    - videoThumb : "images/members/member_1/1.jpg"
+      video: "../../videos/members/member_1-1.mp4"
+
+    - videoThumb : "images/members/member_1/2.jpg"
+      video: "../../videos/members/member_1-2.mp4"
+
+    - videoThumb : "images/members/member_1/3.jpg"
+      video: "../../videos/members/member_1-3.mp4"

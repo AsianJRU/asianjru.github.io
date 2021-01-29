@@ -1,0 +1,296 @@
+######################## default configuration ####################
+baseURL = "https://ajru.tuojie.com/"
+languageCode = "en-us"
+title = "AJRU | Asian Jump Rope Union"
+theme = "ajru"
+summaryLength = "30"
+paginate = 6
+
+[outputs]
+  home = ["HTML", "AMP", "RSS", "JSON"]
+
+######################### Plugins #################################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/css/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify/css/themify-icons.css"
+  [[params.plugins.css]]
+  URL = "plugins/magnific-popup/dist/magnific-popup.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick-carousel/slick/slick.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jquery/jquery.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/js/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/magnific-popup/dist/jquery.magnific-popup.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick-carousel/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/reading-time/readingTime.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
+  [[params.plugins.js]]
+  URL = "plugins/google-map/map.js"
+  
+############################## navigation ###############################
+[menu]
+    
+  [[menu.main]]
+  name = "NEWS"
+  URL = "news"
+  weight = 2
+  
+
+  [[menu.main]]
+  weight = 3
+  name = "ORGANISATION"
+  hasChildren = true
+
+    [[menu.main]]
+    parent = "ORGANISATION"
+    name = "ABOUT AJRU"
+    URL = "about"
+    weight = 1
+
+    [[menu.main]]
+    parent = "ORGANISATION"
+    name = "OFFICIAL AFFILIATIONS"
+    URL = "affiliation"
+    weight = 2
+
+    [[menu.main]]
+    parent = "ORGANISATION"
+    name = "GOVERNING DOCUMENTS"
+    URL = "documents"
+    weight = 3
+
+    [[menu.main]]
+    parent = "ORGANISATION"
+    name = "BOARD OF DIRECTORS"
+    URL = "board"
+    weight = 4
+
+    [[menu.main]]
+    parent = "ORGANISATION"
+    name = "CURRENT MEMBERS"
+    URL = "member"
+    weight = 5
+  
+  
+  [[menu.main]]
+  weight = 4
+  name = "RULES AND JUDGING"
+  hasChildren = true
+
+    [[menu.main]]
+    parent = "RULES AND JUDGING"
+    name = "RULE BOOKS"
+    URL = "rulebooks"
+    weight = 1
+
+    [[menu.main]]
+    parent = "RULES AND JUDGING"
+    name = "JUDGE TRAINING"
+    URL = "judgetraining"
+    weight = 2
+
+    [[menu.main]]
+    parent = "RULES AND JUDGING"
+    name = "TECHNICAL COMMITTEE NEWS"
+    URL = "tcnews"
+    weight = 3
+
+    [[menu.main]]
+    parent = "RULES AND JUDGING"
+    name = "ABOUT THE TECHNICAL COMMITTEE"
+    URL = "abouttc"
+    weight = 4
+
+    [[menu.main]]
+    parent = "RULES AND JUDGING"
+    name = "TIMING TRACKS"
+    URL = "timing_tracks"
+    weight = 5
+
+
+  [[menu.main]]
+  weight = 5
+  name = "PARTNERSHIP"
+  hasChildren = true
+
+    [[menu.main]]
+    parent = "PARTNERSHIP"
+    name = "PARTNERSHIP OPPORTUNITY"
+    URL = "partnership_opportunity"
+    weight = 1
+
+    [[menu.main]]
+    parent = "PARTNERSHIP"
+    name = "PARTNERSHIP OPTIONS"
+    URL = "partnership_options"
+    weight = 2
+  
+
+  [[menu.main]]
+  name = "EVENT"
+  URL = "event"
+  weight = 6
+    
+    
+  [[menu.main]]
+  name = "MEDIA"
+  URL = "media"
+  weight = 7
+
+  ################# footer menu ##################
+
+  [[menu.footer]]
+  name = "MEDIA"
+  URL = "media"
+  weight = 1
+
+  [[menu.footer]]
+  name = "HAPPENING"
+  URL = "news"
+  weight = 2
+
+  [[menu.footer]]
+  name = "ORGANISATION"
+  URL = "about"
+  weight = 3
+
+  [[menu.footer]]
+  name = "RULES"
+  URL = "rulebooks"
+  weight = 4
+
+
+[params]
+logo = "images/AJRU.png"
+home = "HOME"
+# Contact Information
+email = "info@ajru.sport"
+copyright = "Copyright &copy; 2020 Asian Jump Rope Union"
+# Meta data
+description = "This is meta description"
+author = "Lucky Ma"
+# google map
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+mapLatitude = "51.5223477"
+mapLongitude = "-0.1622023"
+mapMarker = "images/marker.png"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+
+  # Navigation top header
+  [params.topHeader]
+  enable = true
+
+  # Subscription
+  [params.subscription]
+  title = "Subscribe With"
+  content = "Subscribe to get latest news article and resources"
+  
+
+  #################### social icon ######################################
+  [[params.social]]
+  title = "facebook"
+  icon = "ti-facebook"
+  link = "https://www.facebook.com/Asian-Jump-Rope-Union-106316081127509/"
+
+  [[params.social]]
+  title = "instagram"
+  icon = "ti-instagram"
+  link = "https://instagram.com/asianjumpropeunion?igshid=1m82bzsmuykdy"
+
+  [[params.social]]
+  title = "twitter"
+  icon = "ti-twitter-alt"
+  link = "#"
+
+   [[params.social]]
+  title = "youtube"
+  icon = "ti-youtube" 
+  link = "#"
+  
+############################# post share links ######################
+[[params.postShare]]
+icon = "ti-facebook" # themify icon pack https://themify.me/themify-icons
+name = "facebook"
+link = "#"
+
+[[params.postShare]]
+icon = "ti-instagram" # themify icon pack https://themify.me/themify-icons
+name = "instagram"
+link = "#"
+
+[[params.postShare]]
+icon = "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+name = "twitter"
+link = "#"
+
+[[params.postShare]]
+icon = "ti-youtube" # themify icon pack https://themify.me/themify-icons
+name = "youtube"
+link = "#"
+
+#[[params.postShare]]
+#icon = "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+#name = "linkedin"
+#link = "#"
+
+#[[params.postShare]]
+#icon = "ti-pinterest" # themify icon pack https://themify.me/themify-icons
+#name = "pinterest"
+#link = "#"
+
+
+############################# history ######################
+# About section
+  [params.history]
+    enable = true
+    title = "About History"
+    subtitle = "Better Understanding Of AJRU"
+    endpoint = "Be part <br> of <br> AJRU <br> story!"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/images/history'.
+    # Replace them with your own.
+    [[params.history.events]]
+      img = "1.jpg"
+      date = "2019-2020"
+      title = "Our Humble Beginnings"
+      description = "This Constitution was adopted on September 4, 2019."
+
+    [[params.history.events]]
+      img = "2.jpg"
+      date = "March 2020"
+      title = "An Agency is Born"
+      description = "Consistent with the resolution taken, the previous Statute is abrogated."
+
+    [[params.history.events]]
+      img = "3.jpg"
+      date = "December 2020"
+      title = "Our Humble Beginnings"
+      description = "The adoption and amendment of this Constitution shall not affect the previous operation of any Article that is amended or repealed nor the validity of any act done or right, privilege, obligation or liability acquired or incurred under, nor the validity of any contract or agreement made under, this Constitution, or any predecessor Statute, prior to its adoption or amendment."
+
+    [[params.history.events]]
+      img = "4.jpg"
+      date = "July 2020"
+      title = "Phase Two Expansion"
+      description = "All elections and resolutions of the General Assembly and of the Board with continuing effect passed under this Constitution or any predecessor Statute prior to its amendment shall continue to be good and valid until amended or repealed, except to the extent of any inconsistency with this Constitution following its adoption or amendment."
+

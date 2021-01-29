@@ -1,0 +1,82 @@
+{{ define "main" }} {{ partial "page-title.html" . }}
+
+<!-- Section About Start -->
+<!-- <section class="section affiliation">
+  <div class="container">
+    <div class="row">
+      {{ $paginator := .Paginate .Data.Pages }}
+      {{ range $paginator.Pages }}
+      <div class="col-lg-4 col-md-6">
+        <div class="card mb-4 affiliation-item">
+          <div class="row no-gutters">
+            <img src="{{ .Params.Image | absURL }}" class="img-fluid w-100" alt="{{ .Title | markdownify }}">
+            <div class="card-body">
+              <h3 class="mb-3"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h3>
+              <p class="card-text mb-4">{{ .Summary }}</p>
+              <a href="{{ .Permalink }}" class="btn btn-main rounded">LEARN MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section> -->
+
+<section class="section affiliation">
+    <div class="container">
+        <div class="row">
+            <div class="media-content">
+                {{ if .Site.Data.affiliation.affiliation.enable }} {{ with .Site.Data.affiliation.affiliation }}
+                <section class="section media-page">
+                    <div style="text-align:center">
+                        <span class="text-color">{{ .subtitle | markdownify }}</span>
+                        <p> </p>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="about-item-img">
+                                    <img src="{{ .image | absURL }}" alt="" class="img-fluid w-100">
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="about-item-content pl-4">
+                                    <h2 class="mb-4 content-title">{{ .title | markdownify }}</h2>
+                                    <p class="lead">{{ .leadContent | markdownify }}</p>
+                                    <p class="mb-4">{{ .content | markdownify }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                {{ end }}
+                <section class="affiliation_body">
+                    <div class="container">
+                        <div class="row">
+                            {{ range first 3 (where .Site.RegularPages "Type" "affiliation" )}}
+                            <div class="col-lg-4">
+                                <div class="affiliation-item-img">
+                                    <img src="{{ .Params.Image | absURL }}" alt="" class="img-fluid w-100">
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="affiliation-item-content pl-4">
+                                    <h3 class="mb-3"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h3>
+                                    <!-- <p class="card-text mb-4">{{ .Summary }}</p> -->
+                                    <div class="content">
+                                        {{ .Content }}
+                                    </div>
+                                    <a href="{{ .Permalink }}" class="btn btn-main rounded">LEARN MORE</a>
+                                </div>
+                            </div>
+                            {{ end}}
+                        </div>
+                </section>
+                {{ end }}
+                </div>
+            </div>
+        </div>
+</section>
+
+{{ end }}

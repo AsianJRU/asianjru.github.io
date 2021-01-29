@@ -1,0 +1,197 @@
+################################ Banner ##############################
+banner:
+  enable : true
+  subtitle : "THE AIMS OF AJRU"
+  title : "DIVERSITY
+  
+
+  INCLUSION
+  
+  
+  EXCELLENCE
+  
+  
+  INNOVATION"
+  content : "Welcome to the AJRU !"
+  
+  button:
+    # button item loop
+    enable : true
+    label : "READ THE RULE BOOKS"
+    link : "rulebooks"
+
+
+############################# Intro ##################################
+
+intro:
+  enable: true
+  
+  title : "Current members of the Asian Jump Rope Union"
+  subtitle : "What can we do"
+  content : "The Asian Jump Rope Union was established on June 28, 2019 and is recognized as the Continental Association of Asia by the International Jump Rope Union.  
+It is juridically constituted, integrated and is registered as a non-profit corporation. 
+Its principal objects are to hold the Asian Jump Rope Championships and develop and promote the sport in Asia through its member National Jump Rope Federations."
+  introItem:
+    # intro item loop
+    - title : "CHINA"
+      image : "images/members/member-1.jpg"
+      content : "Name Of The Association: 
+           
+      China Rope Skipping Association"
+      label : "Learn More"
+      link : "member"
+
+    # intro item loop
+    - title : "INDIA"
+      image : "images/members/member-2.jpg"
+      content : "Name Of The Association: 
+           
+      Jump Rope Federation of India"
+      label : "Learn More"
+      link : "member"
+
+    # intro item loop
+    - title : "IRAN"
+      image : "images/members/member-3.jpg"
+      content : "Name Of The Association: 
+           
+      I.R. Iran Rope Skipping Association"
+      label : "Learn More"
+      link : "member"
+
+    # intro item loop
+    - title : "JAPAN"
+      image : "images/members/member-4.jpg"
+      content : "Name Of The Association: 
+           
+      Japan Jump Rope Union"
+
+      label : "Learn More"
+      link : "member"
+
+    # intro item loop
+    - title : "MACAO"
+      subtitle: "(Special Administrative Region of China)"
+      image : "images/members/member-5.png"
+      content : "Name Of The Association: 
+            
+      Rope Skipping General Association of Macao, China"
+      label : "Learn More"
+      link : "member"
+
+    # intro item loop
+    - title : "MALAYSIA"
+      image : "images/members/member-6.jpg"
+      content : "Name Of The Association: 
+      
+      Malaysia Jump Rope Federation"
+      label : "Learn More"
+      link : "member"
+
+    # intro item loop
+    - title : "SOUTH KOREA"
+      image : "images/members/member-7.JPG"
+      content : "Name Of The Association: 
+            
+      Korea Rope Skipping Association"
+      label : "Learn More"
+      link : "member"
+
+
+############################ The Split Shot （gallery） ###################################
+gallery:
+  enable : true
+  subtitle : "Marvellous, Wonderful and Spirited"
+  title : "The Split Shot"
+  galleryItems:
+    - image : "images/gallery/1.jpg"
+    - image : "images/gallery/2.jpg"
+    - image : "images/gallery/3.jpg"
+    - image : "images/gallery/4.jpg"
+    - image : "images/gallery/5.jpg"
+    - image : "images/gallery/6.jpg"
+    - image : "images/gallery/7.jpg"
+    - image : "images/gallery/8.jpg"
+    - image : "images/gallery/9.JPG"
+
+############################# Latest News ###############################
+news:
+  enable : true
+  subtitle : ""
+  title : ""
+  content : ""
+  # news item comes from "content/news" folder
+
+########################## history ##############################
+history:
+  enable : true
+  historyItem:
+    # history item loop
+    - title : "Founded in 1962"
+      icon : "ti-home"
+      subtitle : "Work Since 1987 with Pride!!"
+      content : "Cum voluptas tenetur, voluptatibus mollitia odio sint, alias debitis quasi ut commodo consequat."
+      
+    # history item loop
+    - title : "Our History"
+      icon : "ti-agenda"
+      subtitle : "Mission to make smile the world"
+      content : "Cum voluptas tenetur, voluptatibus mollitia odio sint, alias debitis quasi ut commodo consequat."
+      
+    # history item loop
+    - title : "Large Community"
+      icon : "ti-hand-open"
+      subtitle : "Join our community & help others"
+      content : "Cum voluptas tenetur, voluptatibus mollitia odio sint, alias debitis quasi ut commodo consequat."
+
+############################# Rulebooks ##################################
+rulebooks:
+  enable: true
+  subtitle : "What we rely on"
+  title : "Current Rulebooks of the Asian Jump Rope Union"
+  content : "
+Its principal objects are to hold the Asian Jump Rope Championships and develop and promote the sport in Asia through its member National Jump Rope Federations."
+  rulebooksItem:
+    # rulebooks item loop
+    - title : "Judging Manual"
+      image : "images/rulebooks/cover.png"
+      content : "To become an AJRU certified judge clinician, you need to be a certified Level 3 AJRU judge in all of the disciplines and complete the AJRU Judge Clinician course."
+      button:
+        enable : true
+        label : "More About Rules"
+        link : "download/rules/[2.0.0]+IJRU+Rule+Book+-+Judging+Manual.pdf"
+
+    # rulebooks item loop
+    - title : "Competition Manual"
+      image : "images/rulebooks/cover.png"
+      content : "After completing all of the necessary trainings, the AJRU Technical Committee will select who will become a certified judge clinician. For more information, please contact us through email at info@ajru.sport. "
+      button:
+        enable : true
+        label : "More About Rules"
+        link : "download/rules/[2.0.0]+IJRU+Rule+Book+-+Competition+Manual.pdf"
+
+
+########################## tcnews ################################
+tcnews:
+  enable : true
+  subtitle : "LATEST TECHNICAL COMMITTEE NEWS"
+  title : "Our Recent Technical Committee News to serve better"
+  content : "We provide services in the area of IFRS and management reporting, helping companies to reach
+            their highest level."
+  # tcnews item comes from "content/tcnews" folder
+
+
+########################### media ###############################
+media:
+  enable : true
+  image : "images/united.png"
+  subtitle : "AJRU Media Content"
+  
+  title : "Welcome to Asian Jump Rope Union"
+  leadContent : "Charite is the world’s #1 fundraising site forcharitable affiliation. Raise money for over 1.5
+            million charities."
+  content : "Both the constituent members of AJRU had made separate applications for Observer status but, in keeping with GAISF’s commitment to accepting a single International Federation for each sport, both worked with the help of GAISF advisors to align their interests, overcome rivalry issues and create the new Federation.
+
+Observer status allows International federations to be part of the GAISF network, take part in activities including the annual IF Forum and to attend the General Assembly, although they have no vote."
+ # media item comes from "content/media" folder
+

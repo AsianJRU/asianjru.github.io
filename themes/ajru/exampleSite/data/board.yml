@@ -1,0 +1,114 @@
+########################### about ###############################
+about:
+  enable : true
+  image : "images/directors/board.jpg"
+  title : "BOARD OF DIRECTORS"
+  leadContent : "The chairman of the AJRU's members"
+  content : "Both the constituent members of AJRU had made separate applications for Observer status but, in keeping with GAISF’s commitment to accepting a single International Federation for each sport, both worked with the help of GAISF advisors to align their interests, overcome rivalry issues and create the new Federation.
+
+Observer status allows International federations to be part of the GAISF network, take part in activities including the annual IF Forum and to attend the General Assembly, although they have no vote.
+
+Observer status is the first step on a clear pathway for new International Federations towards the top of the Olympic Family pyramid. Those who wish to proceed will be assisted by GAISF, leading them into full GAISF membership through the Alliance of Independent Recognised Members of Sport (AIMS), and the Association of IOC Recognised International Sports Federations (ARISF).
+
+GAISF President Patrick Baumann said: “We are delighted to welcome AJRU as Observers and would like to congratulate all involved in the process of successfully aligning the two former Federations to create a single international governing body for this fast-growing and exciting sport."
+
+
+########################### director ###############################
+director:
+  enable : true
+  title : "Welcome to Asian Jump Rope Union"
+  nation : " "
+  content : "Both the constituent members of AJRU had made separate applications for Observer status but, in keeping with GAISF’s commitment to accepting a single International Federation for each sport, both worked with the help of GAISF advisors to align their interests, overcome rivalry issues and create the new Federation.
+
+Observer status allows International federations to be part of the GAISF network, take part in activities including the annual IF Forum and to attend the General Assembly, although they have no vote."
+ # media item comes from "content/media" folder
+
+############################### directors ##############################
+#directors:
+  enable : true
+  subtitle : "Directors"
+  title : "Excellent Directors to get best service"
+  directorsMember:
+    # directors member loop
+    - name : "Micheal Chen"
+      nation : "China"
+      image : "images/directors/1.jpg"
+      social:
+        - name : "facebook"
+          icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "twitter"
+          icon : "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "instagram"
+          icon : "ti-instagram" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "linkedin"
+          icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+    # directors member loop
+    - name : "Daejung Kim"
+      nation : "Businessman"
+      image : "images/directors/7.jpg"
+      social:
+        - name : "facebook"
+          icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "twitter"
+          icon : "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "instagram"
+          icon : "ti-instagram" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "linkedin"
+          icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+    # directors member loop
+    - name : "Cheong Ka Ho"
+      nation : "Macao, China"
+      image : "images/directors/5.jpg"
+      social:
+        - name : "facebook"
+          icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "twitter"
+          icon : "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "instagram"
+          icon : "ti-instagram" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "linkedin"
+          icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+    # directors member loop
+    - name : "Janet Locke"
+      nation : "Japan"
+      image : "images/directors/4.jpg"
+      social:
+        - name : "facebook"
+          icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "twitter"
+          icon : "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "instagram"
+          icon : "ti-instagram" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "linkedin"
+          icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link : "#"

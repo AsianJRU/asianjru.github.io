@@ -1,0 +1,126 @@
+########################### about ###############################
+about:
+  enable : true
+  image : "images/about/img-3.jpg"
+  title : "The Technical Committees "
+  leadContent : "chartered with building the AJRU rule set and competition structure for the 2021 AJRU Championships and beyond. "
+  content : "It is with great pleasure to introduce the AJRU Technical Committees and supporting groups. The members of the Technical Committees were selected and approved by the AJRU working group, the FISAC-IRSF Board of Directors and the WJRF Board of Directors. The goal of the selection was to combine a passion for the future of the sport with an understanding of the best practices of the sport in the major organizations that exist today. The goal is to create a competition structure and rule set with a united vision of the future of the sport, while retaining the best of the past as much as possible.
+The Technical Committees can be reached at info@ajru.sport"
+
+
+############################## Gallery ######################
+gallery:
+  enable : true
+  # gallery items comes from homepage.yml
+
+########################## history ##############################
+history:
+  enable : true
+  historyItem:
+    # history item loop
+    - title : "Founded in 2019"
+      icon : "ti-home"
+      subtitle : "Work Since 2019 with Pride!!"
+      content : "Cum voluptas tenetur, voluptatibus mollitia odio sint, alias debitis quasi ut commodo consequat."
+      
+    # history item loop
+    - title : "Our History"
+      icon : "ti-agenda"
+      subtitle : "Mission to make smile the world"
+      content : "Cum voluptas tenetur, voluptatibus mollitia odio sint, alias debitis quasi ut commodo consequat."
+      
+    # history item loop
+    - title : "Large Community"
+      icon : "ti-hand-open"
+      subtitle : "Join our community & help others"
+      content : "Cum voluptas tenetur, voluptatibus mollitia odio sint, alias debitis quasi ut commodo consequat."
+
+############################### RopeSkipper ##############################
+RopeSkipper:
+  enable : true
+  subtitle : "The Technical Committees"
+  title : "Single Rope Committee"
+  RopeSkipperMember:
+    # RopeSkipper member loop
+    - name : "Xiaolin Cen"
+      nation : "China"
+      image : "images/ropeskipper/1.jpg"
+      social:
+        - name : "facebook"
+          icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "twitter"
+          icon : "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "instagram"
+          icon : "ti-instagram" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "linkedin"
+          icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+    # RopeSkipper member loop
+    - name : "Saumya"
+      nation : "India"
+      image : "images/ropeskipper/2.jpg"
+      social:
+        - name : "facebook"
+          icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "twitter"
+          icon : "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "instagram"
+          icon : "ti-instagram" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "linkedin"
+          icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+    # RopeSkipper member loop
+    - name : "Kosar"
+      nation : "Iran"
+      image : "images/ropeskipper/3.jpg"
+      social:
+        - name : "facebook"
+          icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "twitter"
+          icon : "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "instagram"
+          icon : "ti-instagram" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "linkedin"
+          icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+    # RopeSkipper member loop
+    - name : "Jaewon An"
+      nation : "SOUTH KOREA"
+      image : "images/ropeskipper/7.jpg"
+      social:
+        - name : "facebook"
+          icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "twitter"
+          icon : "ti-twitter-alt" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "instagram"
+          icon : "ti-instagram" # themify icon pack https://themify.me/themify-icons
+          link : "#"
+          
+        - name : "linkedin"
+          icon : "ti-linkedin" # themify icon pack https://themify.me/themify-icons
+          link : "#"

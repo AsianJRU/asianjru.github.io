@@ -1,0 +1,55 @@
+{{ if .Site.Data.history.history.enable }}
+{{ with .Site.Data.history.history }}
+<section class="section feature pb-0">
+    <div class="container">
+        <div class="row no-gutters">
+            {{ range .historyItem }}
+            <div class="col-lg-4 col-md-6">
+                <div class="feature-inner">
+                    <i class="{{ .icon }}"></i>
+                    <h4>{{ .title | markdownify }}</h4>
+                    <p>{{ .subtitle | markdownify }}</p>
+                    <p>{{ .content | markdownify }}</p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="timeline">
+                    {{ range $i, $e := .Site.Params.history.events }}
+                    <li {{ if (not (modBool $i 2)) }}class="timeline-inverted" {{ end }}>
+                        <div class="timeline-image">
+                            {{ $url := printf "images/history/%s" .img }}
+                            <img class="img-circle img-responsive" src="{{ $url | absURL }}" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>{{ .date }}</h4>
+                                <h4 class="subheading">{{ .title | markdownify }}</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">{{ .description | markdownify }}</p>
+                            </div>
+                        </div>
+                    </li>
+                    {{ end }}
+
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>{{ with .Site.Params.history.endpoint }}{{ . | markdownify }}{{ end }}</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

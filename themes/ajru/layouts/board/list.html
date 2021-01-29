@@ -1,0 +1,107 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<!-- about -->
+{{ if .Site.Data.board.about.enable }}
+{{ with .Site.Data.board.about }}
+<section class="section about-page">
+  <div class="container">  
+    <div class="col-lg-12">
+      <div class="about-item-content pl-4">
+        <h2 class="mb-4 content-title">{{ .title | markdownify }}</h2>
+        <p class="lead">{{ .leadContent | markdownify }}</p>
+        <p class="mb-4">{{ .content | markdownify }}</p>
+      </div>
+    </div>
+    <div class="about-item-img board-item-img">
+      <img src="{{ .image | absURL }}" alt="" class="img-fluid w-100">
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /aobut -->
+
+<!-- Director -->
+{{ if .Site.Data.board.director.enable }}
+<section class="director_body">
+  <div class="container">
+    <div class="row">
+      {{ range first 6 (where .Site.RegularPages "Type" "director" )}}
+      <div class="col-lg-2">
+        <div class="director-item-img">
+          <img src="{{ .Params.Image | absURL }}" alt="" class="img-fluid w-100">
+        </div>
+      </div>
+      <div class="col-lg-10">
+        <div class="director-item-content pl-4">
+          <h3 class="mb-3"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h3>
+          <!-- <p class="card-text mb-4">{{ .Summary }}</p> -->
+          <!-- <a href="/board" class="btn btn-main rounded">LEARN MORE</a> -->
+          <div class="content">
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+      {{ end}}
+    </div>
+</section>
+{{ end }}
+<!-- Director -->
+
+<!--  Section Directors Start -->
+{{ if .Site.Data.board.directors.enable }}
+{{ with .Site.Data.board.directors }}
+<section class="section directors">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-7 text-center">
+        <div class="section-title">
+          <span class="h6 text-color">{{ .subtitle | markdownify }}</span>
+          <h2 class="mt-3 content-title">{{ .title | markdownify }}</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      {{ range .directorsMember}}
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="directors-item-wrap mb-5">
+          <div class="directors-item position-relative">
+            <img src="{{ .image | absURL }}" alt="" class="img-fluid w-100">
+            <div class="directors-img-hover">
+              <ul class="directors-social list-inline">
+                {{ range .social }}
+                <li class="list-inline-item">
+                  <a href="{{ .link | safeURL }}" class="{{ .name }}"><i class="{{ .icon }}"></i></a>
+                </li>
+                {{end }}
+              </ul>
+            </div>
+          </div>
+          <div class="directors-item-content">
+            <h4 class="mt-3 mb-0 text-capitalize">{{ .name }}</h4>
+            <p>{{ .nation }}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ if .button.enable }}
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="text-center">
+          {{ with .button }}
+          <a href="{{ .link | absURL }}" class="btn btn-main rounded">{{ .label }}</a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /Directors -->
+
+{{ end }}

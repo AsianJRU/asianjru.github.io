@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://ajru.tuojie.com/"
+baseURL = "http://www.ajru.sport/"
 languageCode = "en-us"
 title = "AJRU | Asian Jump Rope Union"
 theme = "ajru"
